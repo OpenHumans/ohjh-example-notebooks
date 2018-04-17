@@ -25,7 +25,7 @@ This will take you back to the main *Open Humans* page where you have to authori
 
 This will take you to the main page of the *Personal Data Notebooks* where your personal notebook server will boot up.
 
-All the steps that you have taken above are only needed for the initial setup of your *Personal Data Notebooks*. From here on you can just head to [https://notebooks.openhumans.org](https://notebooks.openhumans.org)
+**All the steps that you have taken above are only needed for the initial setup of your *Personal Data Notebooks*. From here on you can just head to [https://notebooks.openhumans.org](https://notebooks.openhumans.org)**
 
 You are now ready to open up one of the notebooks and run it right on your personal data:
 
@@ -33,10 +33,34 @@ You are now ready to open up one of the notebooks and run it right on your perso
 
 
 ## Example Notebooks
-Here is a collection of jupyter notebooks that can be used to analyze various data source you might have in your Open Humans account.
+We have a collection of example notebooks that should already be available in the root of your notebook directory. But you can also [download the raw notebooks from GitHub](https://github.com/OpenHumans/ohjh-example-notebooks).
+
+These are notebooks should give you an idea of how the notebooks work, along with a description of the analysis they perform and example output (done on the data of [Bastian](https://www.twitter.com/gedankenstuecke)). You can run these right on your own data.
 
 ### Analyze your physical activity
-<center><img src='fitbit-image.gif' width='500'/></center>
+We have two example notebooks that you can use to dive into your activity tracking data from Fitbit and Apple Healthkit.
+
+#### `exploring_notebooks_fitbit.ipynb`
+The [`exploring_notebooks_fitbit.ipynb` notebook](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/exploring_notebooks_fitbit.ipynb) gives you a very simple idea of what the Notebooks can do. It uses basic Python commands to analyze and plot step and heart rate data from Fitbit. As such you only need to have your Fitbit account connected to your *Open Humans* account in oder to use it.
+
+It also gives a basic idea of how to see whether Fitbit's gamification actually works and how to spot it in the data. Does gamification work for you too?
+
+#### `compare_fitbit_healthkit.ipynb`
+[`compare_fitbit_healthkit.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/compare_fitbit_healthkit.ipynb) is for those dedicated to do Quantified Self with both Fitbit and an Apple Watch/iPhone. It takes data out of both your *HealthKit* import and your *Fitbit* to see how well the steps counted by both methods align. Along the description of the notebook you will find all the Python code you'll need to get started.
+
+And if you're also wearing an Apple Watch along with a Fitbit you'll be in for a surprise.
 
 ### Analyze your Tweets
 <center><img src='header-image.gif' width='500'/></center>
+
+For the social media addicts we have two example Notebooks that can be used to do some analysis of your Twitter archive.
+
+#### `twitter-sentiment.ipynb`
+In [`twitter-sentiment.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/twitter-sentiment.ipynb) you will find a very simple sentiment analysis as performed in Python. It visualizes your polarity (are your tweets having a positive or negative sentiment overall) and your subjectivity over time.
+
+And since this is 2018 it also contains an analysis that highlights your most-used emoji along with a sentiment classification based on this, rather than on pure text. 😍
+
+#### `twitter-archive-text-mining-R.ipynb`
+In [`twitter-archive-text-mining-R.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/twitter-archive-text-mining-R.ipynb) you can find an example of how you can use `R` to do text mining. It uses a very simple approach that splits tweets in more *historic* and *current* ones and from this identifies words which are over/underrepresented in these two categories, along you to find out which words/topics have become more/less important for you over time.
+
+A similar approach is used to associate emojis with topics. ✈️🎉
