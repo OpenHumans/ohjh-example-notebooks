@@ -1,6 +1,6 @@
 # Meet the *Personal Data Notebooks* on *Open Humans*
 
-The [*Personal Data Notebooks* on *Open Humans*](https://www.openhumans.org/activity/personal-data-notebooks/) allow you to explore and analyze your personal data that's stored in your *Open Humans* account right in your web browser. Our Director of Research, Bastian Greshake Tzovaras, has written about how this can help bridging our growing divide between people and algorithms. *[If you've come here because of the presentation at the Sage Assembly: this is literally just that talk as a blog post]*.
+The [*Personal Data Notebooks* on *Open Humans*](https://www.openhumans.org/activity/personal-data-notebooks/) allow you to explore and analyze your personal data that's stored in your *Open Humans* account right in your web browser. Our Director of Research, Bastian Greshake Tzovaras, [has written about how this can help bridging our growing divide between people and algorithms](http://ruleofthirds.de/demystifying-algorithms/). *[If you've come here because of the presentation at the Sage Assembly: this is literally just that talk as a blog post]*.
 
 Below you will find a step-by-step guide with how to get started with the *Personal Data Notebooks* and some more information about the example notebooks we already provide.
 
