@@ -11,4 +11,4 @@ The [*Personal Data Notebooks* on *Open Humans*](https://www.openhumans.org/acti
 Here is a collection of jupyter notebooks that can be used to analyze various data source you might have in your Open Humans account.
 
 #### Analyze your Tweets
-<img src='header-image.gif'/>
+<img src='header-image.gif' width='500'/>
