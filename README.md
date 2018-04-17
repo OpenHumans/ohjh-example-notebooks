@@ -4,6 +4,18 @@ The [*Personal Data Notebooks* on *Open Humans*](https://www.openhumans.org/acti
 
 Below you will find a step-by-step guide with how to get started with the *Personal Data Notebooks* and some more information about the example notebooks we already provide.
 
+## Table of Contents
+- [Meet the *Personal Data Notebooks* on *Open Humans*](#meet-the-personal-data-notebooks-on-open-humans)
+  * [Getting started](#getting-started)
+    + [Setting up your *Open Humans* account](#setting-up-your-open-humans-account)
+    + [Start your *Personal Data Notebook*](#start-your-personal-data-notebook)
+  * [Example Notebooks](#example-notebooks)
+    + [Analyze your physical activity](#analyze-your-physical-activity)
+      - [`exploring_notebooks_fitbit.ipynb`](#exploring_notebooks_fitbitipynb)
+      - [`compare_fitbit_healthkit.ipynb`](#compare_fitbit_healthkitipynb)
+    + [Analyze your Tweets](#analyze-your-tweets)
+      - [`twitter-sentiment.ipynb`](#twitter-sentimentipynb)
+      - [`twitter-archive-text-mining-R.ipynb`](#twitter-archive-text-mining-ripynb)
 
 
 ## Getting started
