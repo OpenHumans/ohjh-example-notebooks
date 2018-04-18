@@ -40,7 +40,9 @@ This will take you to the main page of the *Personal Data Notebooks* where your 
 
 **All the steps that you have taken above are only needed for the initial setup of your *Personal Data Notebooks*. From here on you can just head to [https://notebooks.openhumans.org](https://notebooks.openhumans.org)**
 
-You are now ready to open up one of the notebooks and run it right on your personal data:
+You are now ready to open up one of the notebooks and run it right on your personal data!
+
+**To run a notebook click the "Run" button, or "shift + enter" on your keyboard. Repeat this to go through each step.**
 
 <center><img src='fitbit-image.gif' width='500'/></center>
 
