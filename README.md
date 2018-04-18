@@ -44,6 +44,8 @@ You are now ready to open up one of the notebooks and run it right on your perso
 
 <center><img src='fitbit-image.gif' width='500'/></center>
 
+If this is your first time using *Jupyter Notebooks* (how exciting! 🎉) you might want to read a brief tutorial on the [Notebook Basics](http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb) and [How-to execute/run code in Notebooks](http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Running%20Code.ipynb)
+
 
 ## Example Notebooks
 We have a collection of example notebooks that should already be available in the root of your notebook directory. But you can also [download the raw notebooks from GitHub](https://github.com/OpenHumans/ohjh-example-notebooks).
