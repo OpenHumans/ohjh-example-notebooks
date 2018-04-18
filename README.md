@@ -42,7 +42,7 @@ This will take you to the main page of the *Personal Data Notebooks* where your 
 
 You are now ready to open up one of the notebooks and run it right on your personal data!
 
-**To run a notebook click the "Run" button, or "shift + enter" on your keyboard. Repeat this to go through each step.**
+**After opening a notebook you will see that the code in the notebooks is organized into *cells*. To run a cell you can click the `Run` button in the menu bar or press `<SHIFT> + <ENTER>` on your keyboard. Repeat this to go through each cell in the notebook.**
 
 <center><img src='fitbit-image.gif' width='500'/></center>
 
