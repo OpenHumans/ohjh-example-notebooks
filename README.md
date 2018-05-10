@@ -82,5 +82,17 @@ In [`twitter-archive-text-mining-R.ipynb`](https://github.com/OpenHumans/ohjh-ex
 
 A similar approach is used to associate emojis with topics. ✈️🎉
 
+### Analyze your *Moves* GPS data
+<center><img src='moves-analysis.gif' width='500'/></center>
+
+*Moves* is an app for iOS and Android that records your GPS location throughout the day and it also tries to classify your modes of transportation. You can use this data to find out how you travel the globe, to see how you much you walk around etc.
+
+#### `moves-analysis.ipynb`
+The [`moves-analysis.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/moves-analysis.ipynb) notebook uses your data from *Moves* to do two things:
+1. It takes your historical daily GPS tracks to find out where you have been on that day. This location is then used to request the local weather on that date from the *Dark Sky* weather API service.
+2. It grabs your daily walking distance & step counts.
+
+The step counts & daily weather are then used to correlate your daily activity with the weather records, investigating how much your physical activity depends on the local outdoor temperature and rainfall/snow conditions. 
+
 ### Made your own?
 You made your own *Personal Data Notebook* and think it would be a great example for other people? Please be in touch with Bastian at bastian@openhumans.org. Or if you're a GitHub person: [Make a pull request against our Example Notebook repository](https://github.com/OpenHumans/ohjh-example-notebooks).
