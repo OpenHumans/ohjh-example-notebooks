@@ -5,7 +5,6 @@ The [*Personal Data Notebooks* on *Open Humans*](https://www.openhumans.org/acti
 Below you will find a step-by-step guide with how to get started with the *Personal Data Notebooks* and some more information about the example notebooks we already provide.
 
 ## Table of Contents
-- [Meet the *Personal Data Notebooks* on *Open Humans*](#meet-the-personal-data-notebooks-on-open-humans)
 * [Getting started](#getting-started)
   + [Setting up your *Open Humans* account](#setting-up-your-open-humans-account)
   + [Start your *Personal Data Notebook*](#start-your-personal-data-notebook)
@@ -25,9 +24,10 @@ Below you will find a step-by-step guide with how to get started with the *Perso
 ### Setting up your *Open Humans* account
 1. [Create an account with Open Humans](https://www.openhumans.org/account/signup/) or [log in into your existing account](https://www.openhumans.org/account/login/). If you have just created your account you will need to verify your email address before you can continue with the next steps.
 2. Connect some data sources to your *Open Humans* account. While we have a lot of interesting data sources, our example Notebooks work with one or multiple of the following data sources (note, by default **none** of the uploaded/connected data will be made public):
-  - [Fitbit](https://www.openhumans.org/activity/fitbit)
+  - [Fitbit](https://www.openhumans.org/activity/fitbit-connection)
   - [Apple HealthKit](https://www.openhumans.org/activity/open-humans-healthkit-integration/)
   - [Twitter archives](https://www.openhumans.org/activity/twitter-archive-analyzer/)
+  - [Moves](https://www.openhumans.org/activity/moves-connection/)
 
 ### Start your *Personal Data Notebook*
 You can now head to [https://notebooks.openhumans.org](https://notebooks.openhumans.org) and click on `Sign in with OpenHumans`.
