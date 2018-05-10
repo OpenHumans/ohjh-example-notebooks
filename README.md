@@ -6,18 +6,19 @@ Below you will find a step-by-step guide with how to get started with the *Perso
 
 ## Table of Contents
 - [Meet the *Personal Data Notebooks* on *Open Humans*](#meet-the-personal-data-notebooks-on-open-humans)
-  * [Getting started](#getting-started)
-    + [Setting up your *Open Humans* account](#setting-up-your-open-humans-account)
-    + [Start your *Personal Data Notebook*](#start-your-personal-data-notebook)
-  * [Example Notebooks](#example-notebooks)
-    + [Analyze your physical activity](#analyze-your-physical-activity)
-      - [`exploring_notebooks_fitbit.ipynb`](#exploring_notebooks_fitbitipynb)
-      - [`compare_fitbit_healthkit.ipynb`](#compare_fitbit_healthkitipynb)
-    + [Analyze your Tweets](#analyze-your-tweets)
-      - [`twitter-sentiment.ipynb`](#twitter-sentimentipynb)
-      - [`twitter-archive-text-mining-R.ipynb`](#twitter-archive-text-mining-ripynb)
-    + [Made your own?](#made-your-own)
-
+* [Getting started](#getting-started)
++ [Setting up your *Open Humans* account](#setting-up-your-open-humans-account)
++ [Start your *Personal Data Notebook*](#start-your-personal-data-notebook)
+* [Example Notebooks](#example-notebooks)
++ [Analyze your physical activity](#analyze-your-physical-activity)
+  - [`exploring_notebooks_fitbit.ipynb`](#exploring_notebooks_fitbitipynb)
+  - [`compare_fitbit_healthkit.ipynb`](#compare_fitbit_healthkitipynb)
++ [Analyze your Tweets](#analyze-your-tweets)
+  - [`twitter-sentiment.ipynb`](#twitter-sentimentipynb)
+  - [`twitter-archive-text-mining-R.ipynb`](#twitter-archive-text-mining-ripynb)
++ [Analyze your *Moves* GPS data](#analyze-your-moves-gps-data)
+  - [`moves-analysis.ipynb`](#moves-analysisipynb)
++ [Made your own?](#made-your-own)
 
 ## Getting started
 
@@ -92,7 +93,7 @@ The [`moves-analysis.ipynb`](https://github.com/OpenHumans/ohjh-example-notebook
 1. It takes your historical daily GPS tracks to find out where you have been on that day. This location is then used to request the local weather on that date from the *Dark Sky* weather API service.
 2. It grabs your daily walking distance & step counts.
 
-The step counts & daily weather are then used to correlate your daily activity with the weather records, investigating how much your physical activity depends on the local outdoor temperature and rainfall/snow conditions. 
+The step counts & daily weather are then used to correlate your daily activity with the weather records, investigating how much your physical activity depends on the local outdoor temperature and rainfall/snow conditions.
 
 ### Made your own?
 You made your own *Personal Data Notebook* and think it would be a great example for other people? Please be in touch with Bastian at bastian@openhumans.org. Or if you're a GitHub person: [Make a pull request against our Example Notebook repository](https://github.com/OpenHumans/ohjh-example-notebooks).
