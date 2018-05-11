@@ -21,6 +21,7 @@ Below you will find a step-by-step guide with how to get started with the *Perso
   + [Analyze your *23andMe* genetic data](#analyze-your-23andme-genetic-data)
     - [`eye-color-and-23andme-data.ipynb`](#eye-color-and-23andme-dataipynb)
   + [Made your own?](#made-your-own)
+  + [Who has access?](#who-has-access)
 
 ## Getting started
 
@@ -109,3 +110,6 @@ The [`eye-color-and-23andme-data.ipynb`](https://github.com/OpenHumans/ohjh-exam
 
 ### Made your own?
 You made your own *Personal Data Notebook* and think it would be a great example for other people? Please be in touch with Bastian at bastian@openhumans.org. Or if you're a GitHub person: [Make a pull request against our Example Notebook repository](https://github.com/OpenHumans/ohjh-example-notebooks).
+
+### Who has access?
+Only you have access to your *Personal Data Notebook*. When you first start, your folder will contain some initial notebooks which you may edit. Any changes that you make to the initial notebooks, or any new notebooks that you create will not be visible to other users, unless you [choose to share them](#made-your-own).
