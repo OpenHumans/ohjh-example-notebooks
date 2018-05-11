@@ -12,6 +12,7 @@ Below you will find a step-by-step guide with how to get started with the *Perso
   + [Analyze your physical activity](#analyze-your-physical-activity)
     - [`exploring_notebooks_fitbit.ipynb`](#exploring_notebooks_fitbitipynb)
     - [`compare_fitbit_healthkit.ipynb`](#compare_fitbit_healthkitipynb)
+    - [`twitter-and-fitbit-activity.ipynb`](#twitter-and-fitbit-activityipynb)
   + [Analyze your Tweets](#analyze-your-tweets)
     - [`twitter-sentiment.ipynb`](#twitter-sentimentipynb)
     - [`twitter-archive-text-mining-R.ipynb`](#twitter-archive-text-mining-ripynb)
@@ -72,6 +73,10 @@ It also gives a basic idea of how to see whether Fitbit's gamification actually 
 [`compare_fitbit_healthkit.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/compare_fitbit_healthkit.ipynb) is for those dedicated to do Quantified Self with both Fitbit and an Apple Watch/iPhone. It takes data out of both your *HealthKit* import and your *Fitbit* to see how well the steps counted by both methods align. Along the description of the notebook you will find all the Python code you'll need to get started.
 
 And if you're also wearing an Apple Watch along with a Fitbit you'll be in for a surprise.
+
+
+#### `twitter-and-fitbit-activity.ipynb`
+With [`twitter-and-fitbit-activity.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/twitter-and-fitbit-activity.ipynb) you can explore whether your physical activity and social media activity on Twitter are related and interacting with each other. The notebook uses your daily step counts from *Fitbit* along with the number of your daily tweets from the *Twitter Archive Analyzer* to visualize the relationship between the two over time.
 
 ### Analyze your Tweets
 <center><img src='header-image.gif' width='500'/></center>
