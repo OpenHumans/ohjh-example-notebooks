@@ -15,6 +15,7 @@ Below you will find a step-by-step guide with how to get started with the *Perso
   + [Analyze your Tweets](#analyze-your-tweets)
     - [`twitter-sentiment.ipynb`](#twitter-sentimentipynb)
     - [`twitter-archive-text-mining-R.ipynb`](#twitter-archive-text-mining-ripynb)
+    - [`twitter-under-the-weather.ipynb`](#twitter-under-the-weatheripynb)
   + [Analyze your *Moves* GPS data](#analyze-your-moves-gps-data)
     - [`moves-analysis.ipynb`](#moves-analysisipynb)
   + [Made your own?](#made-your-own)
@@ -82,6 +83,9 @@ And since this is 2018 it also contains an analysis that highlights your most-us
 In [`twitter-archive-text-mining-R.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/twitter-archive-text-mining-R.ipynb) you can find an example of how you can use `R` to do text mining. It uses a very simple approach that splits tweets in more *historic* and *current* ones and from this identifies words which are over/underrepresented in these two categories, along you to find out which words/topics have become more/less important for you over time.
 
 A similar approach is used to associate emojis with topics. ✈️🎉
+
+#### `twitter-under-the-weather.ipynb`
+In [`twitter-under-the-weather.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/twitter-under-the-weather.ipynb) you can explore whether the local weather has any impact on your mood as displayed in your tweets. It uses your GPS location from the `Moves` application to query for the local weather and combines this data with your text corpus from your `Twitter Archive`. Is your *subjectivity* or *polarity* influenced by the weather?
 
 ### Analyze your *Moves* GPS data
 <center><img src='moves-analysis.gif' width='500'/></center>
