@@ -31,6 +31,7 @@ Below you will find a step-by-step guide with how to get started with the *Perso
   - [Apple HealthKit](https://www.openhumans.org/activity/open-humans-healthkit-integration/)
   - [Twitter archives](https://www.openhumans.org/activity/twitter-archive-analyzer/)
   - [Moves](https://www.openhumans.org/activity/moves-connection/)
+  - [23andMe](https://www.openhumans.org/activity/23andme-upload/)
 
 ### Start your *Personal Data Notebook*
 You can now head to [https://notebooks.openhumans.org](https://notebooks.openhumans.org) and click on `Sign in with OpenHumans`.
