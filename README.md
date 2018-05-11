@@ -18,6 +18,8 @@ Below you will find a step-by-step guide with how to get started with the *Perso
     - [`twitter-under-the-weather.ipynb`](#twitter-under-the-weatheripynb)
   + [Analyze your *Moves* GPS data](#analyze-your-moves-gps-data)
     - [`moves-analysis.ipynb`](#moves-analysisipynb)
+  + [Analyze your *23andMe* genetic data](#analyze-your-23andme-genetic-data)
+    - [`eye-color-and-23andme-data.ipynb`](#eye-color-and-23andme-dataipynb)
   + [Made your own?](#made-your-own)
 
 ## Getting started
@@ -98,6 +100,11 @@ The [`moves-analysis.ipynb`](https://github.com/OpenHumans/ohjh-example-notebook
 2. It grabs your daily walking distance & step counts.
 
 The step counts & daily weather are then used to correlate your daily activity with the weather records, investigating how much your physical activity depends on the local outdoor temperature and rainfall/snow conditions.
+
+### Analyze your *23andMe* genetic data
+
+#### `eye-color-and-23andme-data.ipynb`
+The [`eye-color-and-23andme-data.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/eye-color-and-23andme-data.ipynb) notebook compares your data to public data from [openSNP](https://opensnp.org) to explore our ability to predict eye color from genetic data. It compares your genetic data at a couple positions to ask: *Do you have the same eye color as people with a similar genotype?*
 
 ### Made your own?
 You made your own *Personal Data Notebook* and think it would be a great example for other people? Please be in touch with Bastian at bastian@openhumans.org. Or if you're a GitHub person: [Make a pull request against our Example Notebook repository](https://github.com/OpenHumans/ohjh-example-notebooks).
