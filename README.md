@@ -26,7 +26,7 @@ Below you will find a step-by-step guide with how to get started with the *Perso
     - [`eye-color-and-23andme-data.ipynb`](#eye-color-and-23andme-dataipynb)
 * [Made your own?](#made-your-own)
 * [Who has access?](#who-has-access)
-* [Contributors](#contributors)%
+* [Contributors](#contributors)
 
 ## Getting started
 
