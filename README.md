@@ -11,6 +11,7 @@ Below you will find a step-by-step guide with how to get started with the *Perso
 * [Example Notebooks](#example-notebooks)
   + [Analyze your physical activity](#analyze-your-physical-activity)
     - [`exploring_notebooks_fitbit.ipynb`](#exploring_notebooks_fitbitipynb)
+    - [`fitbit-load-in-R.ipynb`](#fitbit-load-in-ripynb)
     - [`compare_fitbit_healthkit.ipynb`](#compare_fitbit_healthkitipynb)
     - [`twitter-and-fitbit-activity.ipynb`](#twitter-and-fitbit-activityipynb)
   + [Analyze your Tweets](#analyze-your-tweets)
@@ -19,10 +20,13 @@ Below you will find a step-by-step guide with how to get started with the *Perso
     - [`twitter-under-the-weather.ipynb`](#twitter-under-the-weatheripynb)
   + [Analyze your *Moves* GPS data](#analyze-your-moves-gps-data)
     - [`moves-analysis.ipynb`](#moves-analysisipynb)
+  + [Analyze your *RescueTime* productivity/computer usage data](#analyze-your-rescuetime-productivitycomputer-usage-data)
+    - [`rescuetime-vs-step-counts.ipynb`](#rescuetime-vs-step-countsipynb)
   + [Analyze your *23andMe* genetic data](#analyze-your-23andme-genetic-data)
     - [`eye-color-and-23andme-data.ipynb`](#eye-color-and-23andme-dataipynb)
-  + [Made your own?](#made-your-own)
-  + [Who has access?](#who-has-access)
+* [Made your own?](#made-your-own)
+* [Who has access?](#who-has-access)
+* [Contributors](#contributors)%
 
 ## Getting started
 
@@ -33,6 +37,7 @@ Below you will find a step-by-step guide with how to get started with the *Perso
   - [Apple HealthKit](https://www.openhumans.org/activity/open-humans-healthkit-integration/)
   - [Twitter archives](https://www.openhumans.org/activity/twitter-archive-analyzer/)
   - [Moves](https://www.openhumans.org/activity/moves-connection/)
+  - [RescueTime](https://www.openhumans.org/activity/rescuetime-connection/)
   - [23andMe](https://www.openhumans.org/activity/23andme-upload/)
 
 ### Start your *Personal Data Notebook*
@@ -68,6 +73,9 @@ We have two example notebooks that you can use to dive into your activity tracki
 The [`exploring_notebooks_fitbit.ipynb` notebook](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/exploring_notebooks_fitbit.ipynb) gives you a very simple idea of what the Notebooks can do. It uses basic Python commands to analyze and plot step and heart rate data from Fitbit. As such you only need to have your Fitbit account connected to your *Open Humans* account in oder to use it.
 
 It also gives a basic idea of how to see whether Fitbit's gamification actually works and how to spot it in the data. Does gamification work for you too?
+
+#### `fitbit-load-in-R.ipynb`
+With [`fitbit-load-in-R.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/fitbit-load-in-R.ipynb) we also offer a simple notebook that shows you how to load your `Fitbit` data into `R` and how subsequently analyze it.
 
 #### `compare_fitbit_healthkit.ipynb`
 [`compare_fitbit_healthkit.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/compare_fitbit_healthkit.ipynb) is for those dedicated to do Quantified Self with both Fitbit and an Apple Watch/iPhone. It takes data out of both your *HealthKit* import and your *Fitbit* to see how well the steps counted by both methods align. Along the description of the notebook you will find all the Python code you'll need to get started.
@@ -108,13 +116,29 @@ The [`moves-analysis.ipynb`](https://github.com/OpenHumans/ohjh-example-notebook
 
 The step counts & daily weather are then used to correlate your daily activity with the weather records, investigating how much your physical activity depends on the local outdoor temperature and rainfall/snow conditions.
 
+### Analyze your *RescueTime* productivity/computer usage data
+[RescueTime](https://www.rescuetime.com/) is a productivity tracker that monitors how you are using your computer, which websites you visit for how long etc. to see e.g. whether you spend too much time on Facebook. By connecting this data to your Open Humans account you can start to find cross-correlations with other variables in your life:
+
+#### `rescuetime-vs-step-counts.ipynb`
+With [`rescuetime-vs-step-counts.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/rescuetime-vs-step-counts.ipynb) you can correlate your step counts as measured by `Fitbit` and `Apple HealthKit` to see whether your productivity or overall computer use has some impact on your daily step counts.
+
+![](rescuetime-steps.png)
+
 ### Analyze your *23andMe* genetic data
 
 #### `eye-color-and-23andme-data.ipynb`
 The [`eye-color-and-23andme-data.ipynb`](https://github.com/OpenHumans/ohjh-example-notebooks/blob/master/eye-color-and-23andme-data.ipynb) notebook compares your data to public data from [openSNP](https://opensnp.org) to explore our ability to predict eye color from genetic data. It compares your genetic data at a couple positions to ask: *Do you have the same eye color as people with a similar genotype?*
 
-### Made your own?
+## Made your own?
 You made your own *Personal Data Notebook* and think it would be a great example for other people? Please be in touch with Bastian at bastian@openhumans.org. Or if you're a GitHub person: [Make a pull request against our Example Notebook repository](https://github.com/OpenHumans/ohjh-example-notebooks).
 
-### Who has access?
+## Who has access?
 Only you have access to your *Personal Data Notebook*. When you first start, your folder will contain some initial notebooks which you may edit. Any changes that you make to the initial notebooks, or any new notebooks that you create will not be visible to other users, unless you [choose to share them](#made-your-own).
+
+## Contributors
+This collection of Notebooks is growing thanks to a collection of *Personal Data Notebooks* users who write their own analyses. Notebooks and bug fixes have been contributed by:
+- [Bastian Greshake Tzovaras](https://github.com/gedankenstuecke)
+- [Mad Price Ball](https://github.com/madprime)
+- [Kaylea Champion](https://github.com/kayleachampion)
+- [Ernesto Ramirez](https://github.com/erramirez)
+- [Jacob Rosenthal](https://github.com/jacobrosenthal)
