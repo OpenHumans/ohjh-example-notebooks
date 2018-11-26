@@ -11,3 +11,4 @@ This collection of example Notebooks is growing thanks to a collection of *Perso
 - [Kaylea Champion](https://github.com/kayleachampion)
 - [Ernesto Ramirez](https://github.com/erramirez)
 - [Jacob Rosenthal](https://github.com/jacobrosenthal)
+- [Kevin Arvai](https://github.com/arvkevi)
